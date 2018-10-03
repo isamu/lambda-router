@@ -119,3 +119,53 @@ Date: Wed, 03 Oct 2018 18:57:29 GMT
 
 {"message":"404 error"}
 ```
+
+
+
+## session sample
+
+```
+const session = require('lambda-router20/lib/session');
+
+const lambdaRouter = require ("lambda-router20");
+
+
+lambdaRouter.session.setSessionSecret("SET_SECRET_HERE");
+
+const getSession = (event, context, callback) => {
+  const sess = session.getSession(event.headers);
+  
+  const response = {
+    'statusCode': 200,
+    'body': JSON.stringify({
+      session: sess.valid ? sess.data : null,
+    }),
+  };
+  return callback(null, response)
+};
+
+const setSession = (event, context, callback) => {
+  const options = session.getSessionHeader({status: "ok"});
+  
+  const response = {
+    'statusCode': 200,
+    'body': JSON.stringify({
+      message: 'test',
+    }),
+    'headers': options.headers
+  };
+  return callback(null, response)
+};
+
+lambdaRouter.setRoutes([
+  {method: "GET", path: "test/setSession", func: setSession},
+  {method: "GET", path: "test/getSession", func: getSession},
+]);
+
+const router = lambdaRouter.router
+  
+module.exports = {
+  router,
+}
+
+```
