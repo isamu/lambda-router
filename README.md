@@ -1,4 +1,7 @@
-[![Build Status](https://secure.travis-ci.org/isamu/lambda-router20.png?branch=master)](http://travis-ci.org/isamu/lambda-router20)
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Linux Build][travis-image]][travis-url]
+  
 
 # lambda router
 
