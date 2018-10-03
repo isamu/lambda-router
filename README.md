@@ -1,5 +1,10 @@
 # lambda router
 
+This package is web application framework for AWS lambda and API Gateway.
+
+Sample application is here.
+https://github.com/isamu/aws_sam_sample
+
 ## sample
 
 ### src/app.js
@@ -63,7 +68,7 @@ module.exports = {
 }
 ```
 
-### template.yaml
+### template.yaml for SAM
 
 ```
 Resources:
