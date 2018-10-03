@@ -1,0 +1,27 @@
+{
+  "name": "lambda-router",
+  "version": "0.0.1",
+  "description": "aws lambda router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isamu/lambda-router.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isamu/lambda-router/issues"
+  },
+  "homepage": "https://github.com/isamu/lambda-router#readme",
+  "dependencies": {
+    "cookie": "^0.3.1",
+    "cookie-signature": "^1.1.0",
+    "deepmerge": "^2.1.1",
+    "path-match": "^1.2.4",
+    "qs": "^6.5.2",
+    "validator": "^10.8.0"
+  }
+}
