@@ -4,7 +4,7 @@
 
 ## src/app.js
 ```
-const lambdaRouter = require ("lambda-router");
+const lambdaRouter = require ("lambda-router20");
 
 const test = (event, context, callback) => {
   const response = {

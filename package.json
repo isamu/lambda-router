@@ -1,5 +1,5 @@
 {
-  "name": "lambda-router",
+  "name": "lambda-router20",
   "version": "0.0.1",
   "description": "aws lambda router",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isamu/lambda-router.git"
+    "url": "git+https://github.com/isamu/lambda-router20.git"
   },
   "author": "",
   "license": "ISC",
