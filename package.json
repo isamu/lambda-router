@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/isamu/lambda-router20.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "isamu arimoto",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/isamu/lambda-router20/issues"
   },
