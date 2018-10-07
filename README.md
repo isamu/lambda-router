@@ -1,11 +1,18 @@
 [![Build Status](https://secure.travis-ci.org/isamu/lambda-router20.png?branch=master)](http://travis-ci.org/isamu/lambda-router20)
 
-# lambda router
+# lambda router20
 
 This package is web application framework for AWS lambda and API Gateway.
 
 Sample application is here.
 https://github.com/isamu/aws_sam_sample
+
+## install
+
+```
+npm install --save lambda-router20
+```
+
 
 ## sample
 
